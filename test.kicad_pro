@@ -53,6 +53,11 @@
           "gap": 0.0,
           "via_gap": 0.0,
           "width": 0.0
+        },
+        {
+          "gap": 0.2,
+          "via_gap": 0.0,
+          "width": 0.3
         }
       ],
       "drc_exclusions": [],
@@ -173,8 +178,8 @@
       ],
       "track_widths": [
         0.0,
-        0.1524,
-        0.3
+        0.3,
+        0.45
       ],
       "via_dimensions": [
         {
@@ -184,10 +189,6 @@
         {
           "diameter": 0.5,
           "drill": 0.2
-        },
-        {
-          "diameter": 0.66,
-          "drill": 0.3302
         },
         {
           "diameter": 0.7,
