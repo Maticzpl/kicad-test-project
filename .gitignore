@@ -13,3 +13,5 @@
 *.net
 *-cache.lib
 *-rescue.lib
+
+test-backups/
