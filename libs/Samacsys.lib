@@ -1,0 +1,110 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+DEF 10164359-00011LF J 0 30 Y Y 1 F N
+F0 "J" 1150 300 50 H V L CNN
+F1 "10164359-00011LF" 1150 200 50 H V L CNN
+F2 "Samacsys:1016435900011LF" 1150 100 50 H I L CNN
+F3 "https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/10164359.pdf" 1150 0 50 H I L CNN
+F4 "USB Type C Receptacle SMT Single Row 6Pin" 1150 -100 50 H I L CNN "Description"
+F5 "3.41" 1150 -200 50 H I L CNN "Height"
+F6 "Amphenol" 1150 -300 50 H I L CNN "Manufacturer_Name"
+F7 "10164359-00011LF" 1150 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "649-10164359-00011LF" 1150 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Amphenol-FCI/10164359-00011LF?qs=MyNHzdoqoQLpQ%2FmSqA1%252BtQ%3D%3D" 1150 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "10164359-00011LF" 1150 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/10164359-00011lf/amphenol-fci?region=nac" 1150 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X CC1 A5 0 0 200 R 50 50 0 0 P
+X VBUS_1 A9 0 -100 200 R 50 50 0 0 P
+X GND_1 A12 0 -200 200 R 50 50 0 0 P
+X CC2 B5 0 -300 200 R 50 50 0 0 P
+X VBUS_2 B9 0 -400 200 R 50 50 0 0 P
+X GND_2 B12 1300 0 200 L 50 50 0 0 P
+X MH1 MH1 1300 -100 200 L 50 50 0 0 P
+X MH2 MH2 1300 -200 200 L 50 50 0 0 P
+X MH3 MH3 1300 -300 200 L 50 50 0 0 P
+X MH4 MH4 1300 -400 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1100 100 1100 -500 200 -500 200 100 N
+ENDDRAW
+ENDDEF
+DEF USB4110-GF-A J 0 30 Y Y 1 F N
+F0 "J" 850 300 50 H V L CNN
+F1 "USB4110-GF-A" 850 200 50 H V L CNN
+F2 "Samacsys:USB4110GFA" 850 100 50 H I L CNN
+F3 "https://gct.co/files/drawings/usb4110.pdf" 850 0 50 H I L CNN
+F4 "CONN USB 2.0 TYPE-C R/A SMT" 850 -100 50 H I L CNN "Description"
+F5 "3.26" 850 -200 50 H I L CNN "Height"
+F6 "640-USB4110-GF-A" 850 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/GCT/USB4110-GF-A?qs=KUoIvG%2F9IlYiZvIXQjyJeA%3D%3D" 850 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "GCT (GLOBAL CONNECTOR TECHNOLOGY)" 850 -500 50 H I L CNN "Manufacturer_Name"
+F9 "USB4110-GF-A" 850 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X A1 A1 0 0 200 R 50 50 0 0 P
+X A4 A4 0 -100 200 R 50 50 0 0 P
+X A5 A5 0 -200 200 R 50 50 0 0 P
+X A6 A6 0 -300 200 R 50 50 0 0 P
+X A7 A7 0 -400 200 R 50 50 0 0 P
+X A8 A8 0 -500 200 R 50 50 0 0 P
+X A9 A9 0 -600 200 R 50 50 0 0 P
+X A12 A12 0 -700 200 R 50 50 0 0 P
+X B1 B1 0 -800 200 R 50 50 0 0 P
+X B4 B4 0 -900 200 R 50 50 0 0 P
+X B5 B5 1000 0 200 L 50 50 0 0 P
+X B6 B6 1000 -100 200 L 50 50 0 0 P
+X B7 B7 1000 -200 200 L 50 50 0 0 P
+X B8 B8 1000 -300 200 L 50 50 0 0 P
+X B9 B9 1000 -400 200 L 50 50 0 0 P
+X B12 B12 1000 -500 200 L 50 50 0 0 P
+X MP1 MP1 1000 -600 200 L 50 50 0 0 P
+X MP2 MP2 1000 -700 200 L 50 50 0 0 P
+X MP3 MP3 1000 -800 200 L 50 50 0 0 P
+X MP4 MP4 1000 -900 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 800 100 800 -1000 200 -1000 200 100 N
+ENDDRAW
+ENDDEF
+DEF AT25SF041B-SSHB-B IC 0 30 Y Y 1 F N
+F0 "IC" 1450 300 50 H V L CNN
+F1 "AT25SF041B-SSHB-B" 1450 200 50 H V L CNN
+F2 "Samacsys:SOIC127P600X175-8N" 1450 100 50 H I L CNN
+F3 "https://www.renesas.com/us/en/products/memory-logic/non-volatile-memory/spi-nor-flash/dual-quad-spi-memory/at25sf041b-4mbit-27v-minimum-spi-serial-flash-memory-dual-io-support" 1450 0 50 H I L CNN
+F4 "The AT25SF041B is a member of our standard class code and data storage solutions designed for 3V systems in which program code is shadowed from Flash memory into embedded or external RAM for execution.The architecture includes erase block sizes that are optimized to meet the needs of today\'s code and data storage applications and three security register pages for unique device serialization, system-level Electronic Serial Number (ESN) storage, locked key storage, etc.	Universally compatible pinout and comma" 1450 -100 50 H I L CNN "Description"
+F5 "1.75" 1450 -200 50 H I L CNN "Height"
+F6 "Renesas Electronics" 1450 -300 50 H I L CNN "Manufacturer_Name"
+F7 "AT25SF041B-SSHB-B" 1450 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "988-AT25SF041-SSH-B" 1450 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Renesas-Dialog/AT25SF041B-SSHB-B?qs=IS%252B4QmGtzzpXYmyz2tD79g%3D%3D" 1450 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "" 1450 -700 50 H I L CNN "Arrow Part Number"
+F11 "" 1450 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X ~CS 1 0 0 200 R 50 50 0 0 P
+X SO(IO1) 2 0 -100 200 R 50 50 0 0 P
+X ~WP(IO2) 3 0 -200 200 R 50 50 0 0 P
+X GND 4 0 -300 200 R 50 50 0 0 P
+X VCC 8 1600 0 200 L 50 50 0 0 P
+X ~HOLD(IO3) 7 1600 -100 200 L 50 50 0 0 P
+X SCK 6 1600 -200 200 L 50 50 0 0 P
+X SI(IO0) 5 1600 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1400 100 1400 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+DEF AP2120N-3.0TRG1 IC 0 30 Y Y 1 F N
+F0 "IC" 950 300 50 H V L CNN
+F1 "AP2120N-3.0TRG1" 950 200 50 H V L CNN
+F2 "Samacsys:SOT96P240X120-3N" 950 100 50 H I L CNN
+F3 "https://www.diodes.com/assets/Datasheets/AP2120.pdf" 950 0 50 H I L CNN
+F4 "LDO Voltage Regulators 250mA CMOS LDO 3.0V 200mV" 950 -100 50 H I L CNN "Description"
+F5 "1.2" 950 -200 50 H I L CNN "Height"
+F6 "Diodes Incorporated" 950 -300 50 H I L CNN "Manufacturer_Name"
+F7 "AP2120N-3.0TRG1" 950 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "621-AP2120N-3.0TRG1" 950 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AP2120N-3.0TRG1?qs=x6A8l6qLYDDoffGIuz1O7A%3D%3D" 950 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "AP2120N-3.0TRG1" 950 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/ap2120n-3.0trg1/diodes-incorporated?region=nac" 950 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X GND 1 0 0 200 R 50 50 0 0 P
+X VOUT 2 0 -100 200 R 50 50 0 0 P
+X VIN 3 1100 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 900 100 900 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+# End Library

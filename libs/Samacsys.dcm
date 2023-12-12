@@ -1,0 +1,26 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 10164359-00011LF
+D USB Type C Receptacle SMT Single Row 6Pin
+K
+F https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/10164359.pdf
+$ENDCMP
+#
+$CMP USB4110-GF-A
+D CONN USB 2.0 TYPE-C R/A SMT
+K
+F https://gct.co/files/drawings/usb4110.pdf
+$ENDCMP
+#
+$CMP AT25SF041B-SSHB-B
+D The AT25SF041B is a member of our standard class code and data storage solutions designed for 3V systems in which program code is shadowed from Flash memory into embedded or external RAM for execution.The architecture includes erase block sizes that are optimized to meet the needs of today's code and data storage applications and three security register pages for unique device serialization, system-level Electronic Serial Number (ESN) storage, locked key storage, etc.	Universally compatible pinout and comma
+K
+F https://www.renesas.com/us/en/products/memory-logic/non-volatile-memory/spi-nor-flash/dual-quad-spi-memory/at25sf041b-4mbit-27v-minimum-spi-serial-flash-memory-dual-io-support
+$ENDCMP
+#
+$CMP AP2120N-3.0TRG1
+D LDO Voltage Regulators 250mA CMOS LDO 3.0V 200mV
+K
+F https://www.diodes.com/assets/Datasheets/AP2120.pdf
+$ENDCMP
+#End Doc Library
